@@ -1,0 +1,8 @@
+services:
+  - type: worker
+    name: grandmaster-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    plan: free
+
