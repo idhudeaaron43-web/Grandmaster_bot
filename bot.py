@@ -539,4 +539,3 @@ Signals will fire to this chat instantly! 🚀""")
 
 if __name__ == "__main__":
     main()
-    
